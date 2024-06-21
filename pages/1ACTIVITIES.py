@@ -110,11 +110,11 @@ with tab_4:
     tab_4_1, tab_4_2, tab_4_3 = st.tabs(['𖠰','၊၊||၊','☾'])
     with tab_4_1:
         st.subheader('𖠰 my Tree House')
-        img = Image.open('pages/타이틀ui배치설명.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/uiTitle.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('pages/ui배치수정1.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/uiFix1.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('pages/인벤토리 ui 수정본.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/inventory.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('she\'d done a hard work in the project I guess...')
     with tab_4_2:
