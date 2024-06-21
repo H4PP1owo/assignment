@@ -119,9 +119,9 @@ with tab_4:
         st.write('she\'d done a hard work in the project I guess...')
     with tab_4_2:
         st.subheader('၊၊||၊ CITYSCAPE')
-        img = Image.open('pages/ui가이드.png')    # 이미지 파일 열기
+        img = Image.open('pages/uiGuide.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('pages/ui가이드2수정.png')    # 이미지 파일 열기
+        img = Image.open('pages/uiGuide2.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('heard that it\'s her favorite project ever done.')
     with tab_4_3:
