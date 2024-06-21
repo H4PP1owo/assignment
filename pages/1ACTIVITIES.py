@@ -37,44 +37,42 @@ with tab_1:
         st.write('#### 𖠋 anime characters')
         img = Image.open('pages/anime1.jpg')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('anime2.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/anime2.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('anime3.png')    # 이미지 파일 열기
+        img = Image.open('pages/anime3.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('anime4.png')    # 이미지 파일 열기
+        img = Image.open('pages/anime4.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('anime5.png')    # 이미지 파일 열기
+        img = Image.open('pages/anime5.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('anime6.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/anime6.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
     with tab_1_2:
         st.write('#### 🐾 animals')
         img = Image.open('pages/animal.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('animal1.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/animal1.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('animal2.jpg')    # 이미지 파일 열기
+        img = Image.open('pages/animal2.jpg')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
     with tab_1_3:
         st.write('#### 𓆤 moth')
-        img = Image.open('moth1.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/moth1.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('moth2.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/moth2.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('one of H4PP1\'s favorite **original character(OC)** she made.')
 with tab_2:
     st.subheader('⬡ 3D works')
     st.write('even a short period of adjusting the tool, she tried many things. can\'t wait for the whole works.')
-    img = Image.open('shot1.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/shot1.jpg')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('guess this is a trial step.')
-    img = Image.open('rendertestshot.png')    # 이미지 파일 열기
+    img = Image.open('pages/rendertestshot.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('rendertestshot1.png')    # 이미지 파일 열기
+    img = Image.open('pages/rendertestshot1.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('trailershot.png')    # 이미지 파일 열기
-    st.image(img, width=400)          # 이미지 출력
-    img = Image.open('trailer.png')    # 이미지 파일 열기
+    img = Image.open('pages/trailer.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('**< A Little Fish\'s Dream >**, the one H4PP1 thinks masterpiece.')
     st.write('**WAIT till the whole movie uploads...**')
@@ -83,23 +81,23 @@ with tab_3:
     st.subheader('𓂉 other artworks')
     st.write('seems that those works are belong during the class, since there is some datas that H4PP1 hate abstract arts')
     st.write('but think quite nice to appreciate, would H4PP1 herself have loved her works she done?')
-    img = Image.open('other1.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/other1.jpg')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< Untitled >')
     st.write('')
-    img = Image.open('other2.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/other2.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< Untitled >')
     st.write('')
-    img = Image.open('p1.png')    # 이미지 파일 열기
+    img = Image.open('pages/p1.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< How to explain DEATH to a Fish >')
     st.write('')
-    img = Image.open('p2.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/p2.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< Untitled >')
     st.write('')
-    img = Image.open('p3.png')    # 이미지 파일 열기
+    img = Image.open('pages/p3.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< Memory >')
     st.write('silent, peaceful mood outstands in the whole works.')
@@ -112,22 +110,22 @@ with tab_4:
     tab_4_1, tab_4_2, tab_4_3 = st.tabs(['𖠰','၊၊||၊','☾'])
     with tab_4_1:
         st.subheader('𖠰 my Tree House')
-        img = Image.open('타이틀ui배치설명.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/타이틀ui배치설명.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('ui배치수정1.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/ui배치수정1.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('인벤토리 ui 수정본.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/인벤토리 ui 수정본.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('she\'d done a hard work in the project I guess...')
     with tab_4_2:
         st.subheader('၊၊||၊ CITYSCAPE')
-        img = Image.open('ui가이드.png')    # 이미지 파일 열기
+        img = Image.open('pages/ui가이드.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('ui가이드2수정.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/ui가이드2수정.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('heard that it\'s her favorite project ever done.')
     with tab_4_3:
         st.subheader('☾ Save the Moon~')
-        img = Image.open('summary.gif')    # 이미지 파일 열기
+        img = Image.open('pages/summary.gif')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('quite fast work to finish graphics in 24 hours.')
