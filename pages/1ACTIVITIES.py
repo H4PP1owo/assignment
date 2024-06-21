@@ -93,7 +93,7 @@ with tab_3:
     st.image(img, width=400)          # 이미지 출력
     st.write('< How to explain DEATH to a Fish >')
     st.write('')
-    img = Image.open('pages/p2.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/p2.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< Untitled >')
     st.write('')
