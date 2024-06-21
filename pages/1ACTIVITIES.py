@@ -49,7 +49,7 @@ with tab_1:
         st.image(img, width=400)          # 이미지 출력
     with tab_1_2:
         st.write('#### 🐾 animals')
-        img = Image.open('animal.png')    # 이미지 파일 열기
+        img = Image.open('pages/animal.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         img = Image.open('animal1.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
