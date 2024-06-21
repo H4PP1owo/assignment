@@ -34,28 +34,28 @@ with tab_1:
     st.write('H4PP1 loved to make arts since her childhood. after getting IPad as a gift, enjoyed making digital arts.')
     st.write('loved to draw anime characters when teenagers, after having pets tends to scribble fish.')
     st.write('here are some **scribbles** she\'ve done digital and physical both. neat art will be displayed in ACTIVITIES section.')
-    img = Image.open('veryYoung.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/veryYoung.jpg')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('**\* very valuable record here...** to get the scribbles in early childhood')
-    img = Image.open('animeScribble1.png')    # 이미지 파일 열기
+    img = Image.open('pages/animeScribble1.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('animeScribble2.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/animeScribble2.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('animeScribble3.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/animeScribble3.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('animeScribble4.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/animeScribble4.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('recentscribble.png')    # 이미지 파일 열기
+    img = Image.open('pages/recentscribble.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('bugScribble.png')    # 이미지 파일 열기
+    img = Image.open('pages/bugScribble.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('creature.png')    # 이미지 파일 열기
+    img = Image.open('pages/creature.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    img = Image.open('fishScribble.PNG')    # 이미지 파일 열기
+    img = Image.open('pages/fishScribble.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('')
     st.write('recently after 3D design class, seems to fall in love with 3D graphics she tend to unlike.')
-    img = Image.open('3dscribble.png')    # 이미지 파일 열기
+    img = Image.open('pages/3dscribble.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
 
 with tab_2:
@@ -65,15 +65,15 @@ with tab_2:
     st.write('have details that she had kept fish in her childhood. had been more than 3 month as of today.(2024.06.21)')
     st.write('beneath this text is some photo history of her tank.')
     st.write('')
-    img = Image.open('initial.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/initial.jpg')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('2024.03.27 07:06')
     st.write('')
-    img = Image.open('middle.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/middle.jpg')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('2024.04.02 23:21')
     st.write('')
-    img = Image.open('recent.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/recent.jpg')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('2024.06.12 18:06')
     st.write('')
@@ -92,7 +92,7 @@ with tab_2:
     tab_2_1, tab_2_2, tab_2_3 = st.tabs(['platy', 'guppy', 'gourami'])
     with tab_2_1:
         st.write('#### coral platy')
-        img = Image.open('platy.jpg')    # 이미지 파일 열기
+        img = Image.open('pages/platy.jpg')    # 이미지 파일 열기
         st.image(img, width=400)
         platyDF = pd.Series({'nickname':'Fatty', 'amount':'12'
                        , 'color':'red', 'size':'about 4cm', 'characteristics':'seems having obesity, never stop eating.'})
@@ -102,14 +102,14 @@ with tab_2:
 
     with tab_2_2:
         st.write('#### albino full platinum guppy')
-        img = Image.open('guppy.jpg')    # 이미지 파일 열기
+        img = Image.open('pages/guppy.jpg')    # 이미지 파일 열기
         st.image(img, width=400)
         guppyDF = pd.Series({'nickname':'Guppi', 'amount':'4'
                        , 'color':'white', 'size':'about 5cm', 'characteristics':'having little blindness, most expensive.'})
         st.table(guppyDF)
         st.write("the one which are most expensive. hard to breed because of weakness of sight. Some eat algaes a lot.")
         st.write('sometimes tends to try **breeding with the \'Fatty\'s**, look awkward.')
-        img = Image.open('guppyHospital.jpg')    # 이미지 파일 열기
+        img = Image.open('pages/guppyHospital.jpg')    # 이미지 파일 열기
         st.image(img, width=400)
         st.write('recently, H4PP1 went to fish hospital for medication of one of the guppies, had __Aeromonas__.')
 
@@ -144,9 +144,9 @@ with tab_4:
     st.write('### 𖤣𖥧𖡼 strolling')
     st.write('interesting that she loves to stroll even if she doesn\'t like physical activities so much.')
     st.write('seems that she enjoys clean atmosphere outside, and boasting her pretty fashions.')
-    img = Image.open('strollroute.png')    # 이미지 파일 열기
+    img = Image.open('pages/strollroute.png')    # 이미지 파일 열기
     st.image(img, width=400)
     st.write('known that this is her stroll route everyday. takes about 1 hour and a half for a round trip.')
-    img = Image.open('cafe.jpg')    # 이미지 파일 열기
+    img = Image.open('pages/cafe.jpg')    # 이미지 파일 열기
     st.image(img, width=400)
     st.write('guess she loves to visit a nice cafe during the strolling times.')
