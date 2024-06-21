@@ -121,7 +121,7 @@ with tab_4:
         st.subheader('၊၊||၊ CITYSCAPE')
         img = Image.open('pages/ui가이드.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
-        img = Image.open('pages/ui가이드2수정.PNG')    # 이미지 파일 열기
+        img = Image.open('pages/ui가이드2수정.png')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         st.write('heard that it\'s her favorite project ever done.')
     with tab_4_3:
