@@ -4,7 +4,6 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
-import streamlit_pandas as sp
 from PIL import Image
 
 
