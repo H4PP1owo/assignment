@@ -74,8 +74,8 @@ with tab_2:
     st.image(img, width=400)          # 이미지 출력
     img = Image.open('trailershot.png')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
-    video_file=open('trailer.mp4', 'rb') # mode='rb' 바이트 타입으로 읽어 온다.
-    st.video(video_file)
+    img = Image.open('trailer.png')    # 이미지 파일 열기
+    st.image(img, width=400)          # 이미지 출력
     st.write('**< A Little Fish\'s Dream >**, the one H4PP1 thinks masterpiece.')
     st.write('**WAIT till the whole movie uploads...**')
     st.write('[H4PP1] (https://www.youtube.com/@happi-owo)')
