@@ -91,16 +91,16 @@ with tab_3:
     st.image(img, width=400)          # 이미지 출력
     st.write('< Untitled >')
     st.write('')
-    video_file=open('p1.mp4', 'rb') # mode='rb' 바이트 타입으로 읽어 온다.
-    st.video(video_file)
+    img = Image.open('p1.png')    # 이미지 파일 열기
+    st.image(img, width=400)          # 이미지 출력
     st.write('< How to explain DEATH to a Fish >')
     st.write('')
     img = Image.open('p2.PNG')    # 이미지 파일 열기
     st.image(img, width=400)          # 이미지 출력
     st.write('< Untitled >')
     st.write('')
-    video_file=open('p3.mp4', 'rb') # mode='rb' 바이트 타입으로 읽어 온다.
-    st.video(video_file)
+    img = Image.open('p3.png')    # 이미지 파일 열기
+    st.image(img, width=400)          # 이미지 출력
     st.write('< Memory >')
     st.write('silent, peaceful mood outstands in the whole works.')
 
