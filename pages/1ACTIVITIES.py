@@ -35,7 +35,7 @@ with tab_1:
     tab_1_1, tab_1_2, tab_1_3 = st.tabs(['𖠋','🐾','𓆤'])
     with tab_1_1:
         st.write('#### 𖠋 anime characters')
-        img = Image.open('anime1.jpg')    # 이미지 파일 열기
+        img = Image.open('assignment/pages/anime1.jpg')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
         img = Image.open('anime2.PNG')    # 이미지 파일 열기
         st.image(img, width=400)          # 이미지 출력
